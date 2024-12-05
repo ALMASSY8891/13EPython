@@ -5,10 +5,10 @@ def homerseklet():
     hofok=int(input("Adja mega víz hőmérsékletét: "))
     
     if(hofok<=0):
-        print("szilárd")
+        return "szilárd"
     elif(hofok>100):
-        print("gáz")
+        return"gáz"
     else:
-        print("folyékony")
+        return"folyékony"
            
 homerseklet()
