@@ -1,6 +1,6 @@
 #készítsen python kódot ami bekér egy egész hőmréséklet értéket
 #kiirja hogy az adott értéken milyen halmazállapotú a víz
-
+hofok=0
 def homerseklet():
     hofok=int(input("Adja mega víz hőmérsékletét: "))
     
@@ -11,4 +11,5 @@ def homerseklet():
     else:
         return"folyékony"
            
-homerseklet()
+print (homerseklet())
+
